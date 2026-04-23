@@ -1,5 +1,10 @@
 # Terraform Workspaces
 
+> **Companion lab** for the Medium article [**Managing Environments with Terraform Workspaces CLI**](https://blog.devops.dev/managing-environments-with-terraform-workspaces-cli-d5f114f94d29).
+> One of my hands-on labs paired with technical articles — more on [Medium](https://medium.com/@rafael_muller).
+
+---
+
 This project leverages Terraform workspaces to provision and manage resources on AWS with different configurations for multiple environments. The key components of the project include:
 
 1. `main.tf`: Defines the main resource configurations for the project, creating an AWS instance with details specified in the workspace-specific variables from `locals.tf`.
